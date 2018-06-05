@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private RadioButton wuye;
     private RadioButton supmarts;
     private RadioButton tanchu;
+
     private RadioButton sq;
     private RadioButton mine;
     private RadioGroup radiogroup;
