@@ -100,21 +100,18 @@
             android:layout_alignRight="@id/register_code_view">
 
 
-
             <ImageView
-                android:background="@drawable/oval"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:background="@drawable/oval" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="获取验证码"
-                android:textColor="#fff"/>
+                android:textColor="#fff" />
         </com.zhy.autolayout.AutoRelativeLayout>
-
-
 
 
     </com.zhy.autolayout.AutoRelativeLayout>
@@ -163,30 +160,29 @@
             android:src="@mipmap/ok" />
 
         <TextView
-            android:layout_toRightOf="@id/register_select_img"
-            android:text="注册即同意"
-            android:layout_marginLeft="10px"
-            android:gravity="center_vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10px"
+            android:layout_toRightOf="@id/register_select_img"
+            android:gravity="center_vertical"
+            android:text="注册即同意" />
     </com.zhy.autolayout.AutoRelativeLayout>
 
     <com.zhy.autolayout.AutoRelativeLayout
-        android:layout_marginTop="60px"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/oval"
         android:layout_width="580px"
-        android:layout_height="100px">
-
+        android:layout_height="100px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60px"
+        android:background="@drawable/oval">
 
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
             android:text="注册"
             android:textColor="#fff"
-            android:textSize="36px"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:textSize="36px" />
 
     </com.zhy.autolayout.AutoRelativeLayout>
 
