@@ -52,7 +52,6 @@
             android:textColor="#6f98c8" />
     </com.zhy.autolayout.AutoLinearLayout>
 
-
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"></FrameLayout>
